@@ -1,0 +1,108 @@
+.color-page {
+    color:#563C37;
+}
+.border-bottom-hover:hover {
+    border-bottom: 1px solid #563C37;
+    color:#563C37;
+}
+.background-page {
+    background: #563C37;
+}
+.color-page-white {
+    color:#fff;
+}
+.preview-background {
+    background: #EFECEB;
+}
+@media screen and (max-width: 768px) {
+    #myModal1 .modal-dialog .modal-body{
+        height: 96vh;
+        overflow-y: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    #myModal2 .modal-dialog .modal-body{
+        height: 96vh;
+        overflow-y: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    #myModal3 .modal-dialog .modal-body{
+        height: 96vh;
+        overflow-y: auto;
+    }
+}
+
+/* As there is a padding for img in custom.css, we need to adjust padding for captions too. */
+.biography figcaption {
+    padding-left: 30px;
+}
+/* To group name and years of life, make a gap after the dates, not before. */
+.block-date p {
+    padding-top: 0;
+    padding-bottom: 7%;
+}
+/* Background for all biography text. */
+#biogr {
+    background-color: #EFECEB;
+}
+
+/* Customized memories */
+.ss-item-block-practice {
+    margin: 48px;
+    font-size: 18px;
+    line-height: 110.6%;
+}
+.ss-limit-height {
+    height: 200px;
+    overflow: hidden;
+    position:relative;
+}
+.ss-limit-height:before {
+    content: "";
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(transparent, white);
+}
+.item-block-practice:hover .ss-btn-practice button {
+    color: #FF1111;
+    transition: 0.5s;
+}
+.ss-btn-practice {
+    font-family: Alegreyabold;
+}
+.ss-btn-practice button {
+    border: none;
+    background: no-repeat;
+    padding: 24px 0;
+}
+.ss-review-name {
+    font-size: 1.2em;
+    line-height: 110.6%;
+    font-family: Alegreyamedium;
+}
+
+@media (max-width: 992px) {
+    .ss-item-block-practice {
+        margin: 32px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ss-item-block-practice {
+        margin: 24px;
+        font-size: 14px;
+    }
+    .ss-limit-height {
+        height: 140px;
+    }
+}
+@media (max-width: 576px) {
+    .ss-item-block-practice {
+        margin: 16px;
+        font-size: 14px;
+    }
+}

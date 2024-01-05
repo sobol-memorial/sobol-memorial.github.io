@@ -521,6 +521,7 @@ div .dropdown-item:focus, div .dropdown-item:hover {
     margin-right: 0;
     margin-left: 0; 
 }
+/*
 .modal.fade.slide-practice.show {
 	display:table!important;
 }
@@ -533,6 +534,7 @@ div .dropdown-item:focus, div .dropdown-item:hover {
 	height: calc(100vh - 10px);
 	margin: 5px;
 }
+*/
 .brief-data {
 	display:none;
 }
